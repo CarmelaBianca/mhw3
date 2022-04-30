@@ -1,0 +1,61 @@
+.choice-grid div{
+    display: inline-block;
+    box-sizing: content-box;
+    width: 32.5%;
+    border: solid #dcdcdc 1px;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+img{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 209.5px;
+    width: 209.5px;
+}
+.overlay{
+    opacity: 0.6;
+}
+div.sfondo{
+    background-color: #cfe3ff;
+}
+.hidden{
+    display: none;
+}
+#btn{
+    margin-top: 40px;
+}
+#restart{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #cecece;
+    cursor: pointer;
+}
+#restart:hover{
+    background-color: #e0e0e0;
+}
+@media(min-width: 701px){
+    body{
+        width: 100%;
+    }
+}
+@media(max-width: 700px){
+    body{
+        width: 95%;
+    }
+    header div span {
+        display: none;
+
+    }
+}
+@media(max-width: 500px){
+    .choice-grid div{
+        width: 49%;
+    }
+}
+
